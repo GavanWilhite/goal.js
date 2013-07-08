@@ -1,0 +1,4 @@
+goal.js
+=======
+
+Goal Factoring
