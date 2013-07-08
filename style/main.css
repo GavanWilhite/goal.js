@@ -26,7 +26,7 @@ body{
 	border-radius: 50%;
 	background-color:grey;
 	position: relative;
-	border: solid lightgrey 10px;
+	border: solid lightgrey 10px;/*hack to widen hitbox*/
 }
 
 
@@ -41,7 +41,6 @@ body{
   box-shadow:2px 2px 8px rgba(50, 50, 50, 0.45);
 	position: relative;
 	text-align: center;
-	overflow: hidden;
 
 	vertical-align: middle;
 
@@ -51,6 +50,7 @@ body{
   display: table-cell; 
   vertical-align: middle; 
   text-align: center; 
+  border-bottom: none !important;
 }
 .node-icon{
 	width:30px;
